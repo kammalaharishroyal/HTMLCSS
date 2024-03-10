@@ -15,7 +15,7 @@ header{
     display: inline-block;
 
 }
-.header-img img{
+.header-img>img{
     width: 100px;
     height: 20px;
     margin-right: 50px;
@@ -28,14 +28,40 @@ header{
     
   
 }
+.header-ul1>li>i:nth-child(2){
+    display: none;
+}
+.header-ul1>li>section{
+    position: absolute;
+    top: 50px;
+    display: none;
+    
+}
+.header-ul1>li>section>ul>li{
+    list-style: none;
+}
+.header-ul1>li:hover>i:nth-child(2){
+display:none;
+}
+.header-ul1>li:hover>i:nth-child(2){
+display: inline-block;
+}
+.header-ul1 :hover section{
+    display: inline-block;
+    position: absolute;
+    left: 312px;
+}
 
+.header-ul1>li:hover>:first-child{
+    display: none;
+}
 .header-ul1,.header-ul2{
    
     display: inline;
     margin-right:20px;
     
 }
-.header-ul1 li,.header-ul2 li{
+.header-ul1>li,.header-ul2>li{
     display: inline;
     margin-right: 40px;
     color: #aaa;
@@ -44,7 +70,7 @@ header{
     
 }
 
-.header-ul1 li:hover,.header-ul2  li:hover{
+.header-ul1>li:hover,.header-ul2 >li:hover{
     cursor: pointer;
     
 }
@@ -57,17 +83,17 @@ header{
     background-position: top right;
     color: white;
 }
-.content1 section{
+.content1>section{
     padding-top: 60px;
     padding-left: 30px;
     font-size: 44.8;
     width: 60%;
 }
-.content1 section h1{
+.content1>section>h1{
     margin-bottom: 30px;
     font-size: 45px;
 }
-.content1 section p{
+.content1>section>p{
     font-size: 30px;
 }
 .content1 section button,.content2 button,.content41 button{
