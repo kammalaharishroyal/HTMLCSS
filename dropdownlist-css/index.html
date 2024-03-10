@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down list</title>
+    <style>
+       
+        section{
+            display: none;
+        }
+       
+       h2{
+        background-color: rgba(0, 0, 0, 0.326);
+        width: 130px ;
+        margin: 1px;
+        color: white;
+       }
+
+        h1::after{
+            
+            content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMkAAACUCAMAAAAOCP0eAAAAY1BMVEX///8AAAD8/PwrKyv5+fm4uLgnJyempqbJycmxsbE1NTW7u7uqqqrFxcUkJCQ6OjodHR0/Pz8wMDCgoKDy8vJERER+fn4UFBRubm4ZGRnb29tJSUnT09MICAiMjIxkZGRVVVV97CpkAAADJklEQVR4nO2a2XaCMBRFCZMiiANWqrbq/39lg5SqcKJVEgissx9bvWGvO62ojkMIIYQQQgghhBBCCCGEEEIIIYQQQkbNZrDB7/C3QojAVPRABj/6pqLfsTnJs0SeGTnNz4rgYttFXjafl7NEOjGg4mc70ZVKJWJEZZOlVXTjKleRQkVzcD8Lr9E/Xc3R73FP4oZlpjf4NSMXFa3B6xzEHblWlapHulA5ijqJvuBZI/hRX/A6eeMwoS0rk2bss67YTXbN03I9be8CEXE2tyBP4Dgtw9ifgHSLbfvAKvYLcJ6XtFbxJykIfN7reGYF0w9wYpi0HP3+xANhP770PLOC6QGc2XJFYpGVWRGFSrsVCUvLuIiiwL5b7BXY7IZLq2SK2j5/WyUB0cSiCxHH+VqhrLzZK2iPiEM3IjIrSGX5zgRzJ999iigK7I1h7Ceo2Q9TE8+sAGbFi15U8ZMe9kidOZpg3mttj0U6avYrcBinL6lAkVWXpVUCs7J7QQX2SAcLsckctf0u+u/bEzS1Ft1npGA+a6ESgff2JaIYxv8rMLjZO55at0xRVsLnw9hNlkikr4wUQJWne0WxR/oUkb2CVuT6ca/40Rq8adZfaZXgFflIxYUivTX7FZiV9IGKLQuxCdwrS+X3KxFqdgsyUjBH1aLKSgBeK2Z2iChUllDFroXYBKqEQCVCd3YreqRiGoIn9ILaXnEj9LLVvJ9nVhCjFbm+b3vFHrEpIwUxXJG3Km6EbGd2ZaQAqtyuSCiysE/EcWO4V+Lq/xG86loo4ih6xfstsAB892JjaZXE6D7rXbISoxuiZ6uI3CtoyqYyKxG86torIlVQVtZxgP5stYisItTXO5QRa3ukArY9wOIeqYDDuJmR+HmkvsF7ZWildcF9XmDDEJEEqO1vWA+gtH4J0A33D284InKvPFAZTGmVxEqVAZVWSYBuVZJwaCJSBU6wtbFf55rDRSqDK60LQGWYIsXF3RuHiFP/5DQcYI/8EeQjEbm99Q5qsyOidBQZKSg/eByBiBzGZyHOIxCR7IPA5K9MCSGEEEIIIYQQQgghhBBCCCGEjIofVeYfLxFOf20AAAAASUVORK5CYII=);
+            width: 10px;
+        }
+        h1:hover::after{
+            content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAACUCAMAAAAwLZJQAAAAXVBMVEX///8AAADq6urPz8/W1tbv7+9TU1Pm5uZeXl7d3d0mJiba2tpGRkbj4+MyMjLKysotLS1YWFhsbGw8PDwcHBxjY2P4+PgUFBRLS0sPDw83NzdBQUGPj49zc3OXl5dCY/fcAAACK0lEQVR4nO3Z23aCMBCFYU7BAwoK1bba9v0fs8pQK5mACgOZi/1dqitrVv4S0AYBAAAAAAAAAAAAAAAAAAAAAFiyNFyufA/xhPgtDMNd4nuMh+I8vKq0T1qsQ3KKfY/Sq+5OVNdvupMq8z1Op1t3kmutf9dddf0kD21njfWt7mrrx++OORXWd3RXWd/ZXWH9ju7q6iennjkv9bU8S/V0V1U/+bQHsw/+cK3hiuLd98mH/dLGf/2CbV9pguhgv7jzXZ93P5jLy9FeWf2ssgdKo/qNxUZV/YKdn6Vp3lJVP2NzLs3tTUd9X3va2Z2oqV+w66g0rQ8YVn/to35vd8Lr7+bf06S/O1FQ/2F34r1+xu5HrDuJUq/1Hd0XHR/d+qzfc85z/OSfrX7Gnj/33XN6rO94ruvqTrb8qW+OJxT2e0hfd+Llvp+w7umjOS+Tsj3Np67/cncye/0B3Ymj/pTfogd1byZl5+lpuvoDuxNef7JfewZ3J7PVT3aDuzeT8vpT7Cm/v7/QnWzZPWqCa39kdxIt7UVy6fqjuzeTsvrC/zsR6E4c9SVPKcPmPPDvHc/h9Qel6ZAJLh6d7cUEt3RlLb0c1p2w+luxOYNju9fg7mTRXq08Ck1Zr31//xv9R9W69h3fsscw/8fTqO7krn4luZ9X5m9PS4kduNXfS895qy90mDT1hbuTur5Ad1LXP8nv59Xx6/tHbmXzI7kaAAAAAAAAAAAAAAAAAEDbL8e6FiMnOFCYAAAAAElFTkSuQmCC);
+        }
+        div:hover section{
+            display: block; 
+           
+        }
+        div:hover section h2{
+            background-color:rgba(57, 49, 49, 0.053);
+            color:black;
+        }
+    </style>
+</head>
+<body>
+   <div >
+    
+    <h1>Home</h1>
+   <section >
+    <h2>All</h2>
+    <h2>Movies</h2>
+    <h2>TV Shows</h2>
+   </section>
+   </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    margin: 2%;
+}
+div{
+    height: 100vh;
+    background-image: url(./netflixteaser.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+section{
+    height: 100vh;
+    background-image: url(./amazon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s2{
+    height: 100vh;
+    background-image: url(./mapup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+p{
+    height: 100vh;
+    background-image: url(./google.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    margin: 5%;
+}
+article{
+    height: 100vh;
+    background-image: url(./linux.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5%;
+    background-color: aqua;
+}

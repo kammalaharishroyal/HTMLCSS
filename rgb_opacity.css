@@ -1,0 +1,23 @@
+body{
+    background-color: #00baf2;
+}
+strong{
+  background-color: #00baf2;
+    text-transform: uppercase;
+}
+h1{
+    color: rgba(0, 0, 255, 0.439);
+}
+h2{
+    color:rgb(255,0,0,1.0);
+}
+h3{
+    color: rgb(0,255,0);
+    opacity: 0.7;
+}
+p{
+    color: rgba(0,0,255,0.8);
+}
+div{
+    background-color: #00ff00;
+}

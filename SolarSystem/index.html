@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth-moon</title>
+    <style>
+        .earth-moon{
+            animation-name: moon1;
+            animation-duration: 100s;
+             animation-iteration-count: infinite;
+        }
+        .earth{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            margin: auto;
+            border: 1px dashed;
+            background-color: #ff8603;
+            margin-top: 30vh;
+            animation-name: moon1;
+            animation-duration: 100s;
+             animation-iteration-count: infinite;
+            
+        }
+        .moon{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin: auto;
+            background-color: #d6d4d1;
+            border: 1px dashed;
+          
+            animation: moon 5s infinite linear ;
+            
+            
+        }
+        @keyframes moon1 {
+            from{
+                transform: rotate(-360deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+            
+        }
+        @keyframes moon {
+            from{
+                transform: rotate();
+            }
+            to{
+                transform: rotate(360deg) translate(300px,300px);
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="earth-moon">
+        <div class="earth"></div>
+        <div class="moon"></div>
+    
+    </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}    
+p{
+    background-color: antiquewhite;
+    border-width: 10px;
+    padding:10px 20px
+}
+button{
+    border: none;
+    background: rgba(244, 118, 118, 0.851);
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+ul{
+    padding: 10px 30px;
+
+    border: 1px solid;
+}
+ul li{
+    display: inline;
+   margin-right: 40px;
+   
+
+}
+ul li a{
+    text-decoration: none;
+}
+h1{
+    
+    text-align: center;
+}

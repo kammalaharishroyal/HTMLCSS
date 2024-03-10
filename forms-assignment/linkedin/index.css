@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #f3f2f0;
+    height: 100vh;
+    padding-top: 50px;
+}
+.form{
+    padding: 20px;
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    
+}
+input{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 12px 24px;
+    
+}
+button{
+    width: 100%;
+    background-color: #0a66c2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+strong{
+    color: #0a66c2;
+
+}
+strong:hover{
+cursor: pointer;
+}

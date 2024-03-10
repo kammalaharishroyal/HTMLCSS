@@ -1,0 +1,29 @@
+#para{
+    color: teal;
+}
+.paragraph{
+    color: crimson  !important;  
+}
+p{
+    color: yellow;
+}
+
+/* Backgrounf image */
+div{
+    height: 500vh;
+    background-image: url("https://cdn.pixabay.com/photo/2024/01/19/16/54/flower-8519409_1280.jpg");
+    background-repeat:no-repeat;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    /* background-position: bottom right; */
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+}
+p{
+    font-size: 10rem;
+    color: yellow;
+}
+p::selection{
+    color: red;
+}

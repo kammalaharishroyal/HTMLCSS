@@ -1,0 +1,300 @@
+input[placeholder~="Your"]::placeholder{
+    color: maroon;
+   
+}
+input[type="tel"]{
+    border-style: dashed;
+    
+}
+input[type="text"]{
+    border-style: dotted;
+    
+}
+
+img[alt~=yt]{
+    border-radius: 40px;
+}
+a[title]{
+    text-decoration: none;
+}
+.form2 input[type="password"]{
+    color: blue;
+    caret-color: blue;
+}
+.form1 input[type]{
+    color: blue;
+    caret-color: blue;
+}
+
+p::selection{
+    color:white;
+    background-color: tomato;
+}
+.input::placeholder{
+    color: black;
+    background-color: tomato;
+    padding: 10px;
+    font-size: 15px;
+}
+ol li::marker{
+    color: tomato;
+    
+}
+
+
+
+
+
+.t1,td,th,.t2,.t3,.t4,.t5,.t6,.t7,.t8,.t9,.t10,.t11,.t12,.t13,.t14,.t15{
+    border-style: solid;
+    border-collapse: collapse;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  color: black;
+  
+  
+  
+}
+.t1 td ,.t1 th,.t1 td{
+    padding: 20px;
+}
+.t1 tr:nth-child(even){
+    background-color: rgb(143, 240, 240);
+    
+}
+.t1 th{
+    background-color: rgb(164, 164, 238);
+   
+
+}
+
+
+
+.t1 tr:nth-child(odd):hover{
+    background-color: rgb(241, 193, 193);
+    color: blue;
+}
+.t1 tr:nth-child(even):hover{
+    background-color: black;
+    opacity: 70%;
+  
+    color: white;
+}
+
+
+.t2{
+    background-color: rgb(246, 246, 251);
+}
+.t2 tr:nth-child(odd){
+   background-color:blueviolet;
+   
+}
+.t2 tr:nth-child(odd):hover{
+   background-color:bisque;
+   
+}
+.t2 tr:first-child{
+    background-color:rgb(46, 182, 137) ;
+}
+.t3{
+    background-color: rgb(246, 246, 251);
+}
+.t3 tr:nth-child(even){
+   background-color:yellowgreen;
+   
+}
+.t3 tr:nth-child(odd):hover{
+   background-color:crimson;
+   
+}
+.t3 tr:first-child{
+    background-color:rgb(46, 125, 182) ;
+}
+.t4{
+    background-color: rgb(18, 18, 227);
+}
+.t4 tr:nth-child(even){
+   background-color:lightblue;
+   
+}
+.t4 tr:nth-child(odd):hover{
+   background-color:cyan;
+   
+}
+.t4 tr:first-child{
+    background-color:rgb(46, 125, 182) ;
+}
+
+
+
+.t5{
+    background-color:darkorchid;
+}
+.t5 tr:nth-child(odd){
+   background-color:lightblue;
+   
+}
+.t5 tr:nth-child(even):hover{
+   background-color:cyan;
+   
+}
+.t5 tr:first-child{
+    background-color:rgb(46, 125, 182) ;
+}
+
+
+.t6{
+    background-color: rgb(18, 18, 227);
+}
+.t6 tr:nth-child(even){
+   background-color:lightblue;
+   
+}
+.t6 tr:nth-child(odd):hover{
+   background-color:cyan;
+   
+}
+.t6 tr:first-child{
+    background-color:rgb(46, 125, 182) ;
+}
+
+.t7{
+    background-color: rgb(18, 18, 227);
+}
+.t7 tr:nth-child(even){
+   background-color:lightblue;
+   
+}
+.t7 tr:nth-child(odd):hover{
+   background-color:cyan;
+   
+}
+.t7 tr:first-child{
+    background-color:rgb(46, 125, 182) ;
+}
+
+
+
+
+.t8{
+    background-color: rgb(18, 18, 227);
+}
+.t8 tr:nth-child(even){
+   background-color:lightblue;
+   
+}
+.t8 tr:nth-child(odd):hover{
+   background-color:cyan;
+   
+}
+.t8 tr:first-child{
+    background-color:rgb(46, 125, 182) ;
+}
+
+
+.t9{
+    background-color: antiquewhite;
+}
+.t9 tr:nth-child(even){
+   background-color:lightblue;
+   
+}
+.t9 tr:nth-child(odd):hover{
+   background-color:darkslateblue;
+   
+}
+.t9 tr:first-child{
+    background-color:rgb(46, 125, 182) ;
+}
+
+.t10{
+    background-color:rgb(16, 98, 99);
+}
+.t10 tr:nth-child(even){
+   background-color:lightblue;
+   
+}
+.t10 tr:nth-child(odd):hover{
+   background-color:cyan;
+   
+}
+.t10 tr:first-child{
+    background-color:rgb(46, 125, 182) ;
+}
+
+.t9{
+    background-color:rgb(232, 180, 180);
+}
+.t10 tr:nth-child(even){
+   background-color:darkgray;
+   
+}
+.t10 tr:nth-child(odd):hover{
+   background-color:cyan;
+   
+}
+.t10 tr:first-child{
+    background-color:rgb(46, 125, 182) ;
+}
+
+.t11 tr:nth-child(even){
+    background-color:lightblue;
+    
+ }
+ .t11 tr:nth-child(odd):hover{
+    background-color:cyan;
+    
+ }
+ .t11 tr:first-child{
+     background-color:dodgerblue ;
+ }
+ .t12 tr:nth-child(even){
+    background-color:lightblue;
+    
+ }
+ .t12 tr:nth-child(odd):hover{
+    background-color:rgb(57, 77, 114);
+    
+ }
+ .t12 tr:first-child{
+     background-color:black ;
+     color: white;
+ }
+
+ .t13 tr:nth-child(even){
+    background-color:lightblue;
+    
+ }
+ .t13 tr:nth-child(odd):hover{
+    background-color:currentColor;
+    
+ }
+ .t13 tr:first-child{
+     background-color:cornsilk ;
+ }
+
+
+ .t14 tr:nth-child(even){
+    background-color:lightblue;
+    
+ }
+ .t14 tr:nth-child(odd):hover{
+    background-color:darkgoldenrod;
+    
+ }
+ .t14 tr:first-child{
+     background-color:rgb(225, 148, 189) ;
+ }
+
+ .t15 tr:nth-child(even){
+    background-color:lightslategrey;
+    
+ }
+ .t15 tr:nth-child(odd):hover{
+    background-color:darkgray;
+    
+ }
+ .t15 tr:first-child{
+     background-color:rgb(225, 231, 236) ;
+ }

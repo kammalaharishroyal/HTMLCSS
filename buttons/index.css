@@ -1,0 +1,93 @@
+.b1{
+    background-color:#0F79AF;
+    padding:15px 45px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: medium;
+}
+.b1:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 5px rgb(83, 77, 76);
+    border: none;
+    display: block;
+    margin:10px 10px;
+}
+.b2{
+    background-color: red;
+    box-shadow: 0px 0px 7px 5px rgb(83, 77, 76);
+    padding: 15px;
+    font-size: large;
+    border-radius: 5px;
+    width: 180px;
+    color: white;
+    outline: transparent;
+    border-style: transparent;
+    font-weight: bolder;
+}
+.b3{
+    
+    margin:10px 5px;
+    padding:10px;
+    border-radius: 20px;
+    background-color: #42b72a;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 5px rgb(83, 77, 76);
+   
+}          
+.b4{
+    padding: 10px 30px;
+    border-radius: 40px;
+    background-color: rgb(155, 93, 212);
+    color: #fff;
+    box-shadow: 0px 0px 7px 5px rgb(83, 77, 76);
+}
+.b5{
+    padding: 10px 15px;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 1px 1px 7px black;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: 0px 0px 7px 5px rgb(83, 77, 76);
+}
+.b6{
+    padding: 10px 15px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px rgb(210, 13, 13);
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: bolder;
+    box-shadow: 0px 0px 7px 5px rgb(83, 77, 76);
+}
+.b7{
+    padding: 16px 32px;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 19px rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgb(131, 131, 238);
+    font-weight: bolder;
+    width: 150px;
+    box-shadow: 0px 0px 7px 5px rgb(83, 77, 76);
+
+}
+
+.h1{
+    text-shadow: 1px 1px 19px #0faf12;
+}
+.h2{
+    text-shadow: 1px 10px 1px #af5f0f;
+}
+.h3{
+    text-shadow: 1px 1px 4px #ade818;
+}
+.h4{
+    text-shadow: 1px 1px 1px #af0f14;
+}
+.h5{
+    text-shadow: 1px 1px 1px darkgoldenrod;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        img{
+            height: 200px;
+            width: 200px;
+            border: solid;
+            border-radius: 20%;
+            transition: transform 12s;
+            
+        }
+        img:hover{
+            transform:translate(100px,100px);
+            
+        }
+        p{
+            height: 200px;
+            width: 200px;
+            border: dashed;
+            transition-duration: 10s,3s;
+            transition:10s;
+        }
+     
+        .div1{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: solid;
+            animation-name:rotatesomedeg;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            text-align: center;
+            display: inline-block;
+            
+        }
+        h1{
+            animation-name:roth1; 
+            animation-duration: 10s;
+            height: 100px;
+            width: 100px;
+            margin-left: 30px;
+            
+        }
+        @keyframes rotatesomedeg {
+            from{
+                height: 200px;
+                width: 200px;
+            }
+            to{
+                border-radius: 50%;
+                transform: rotate(360deg);
+                background-color: blue;
+
+                
+            }
+            
+        }
+      
+        .div2{
+            height: 200px;
+            width: 200px;
+            border: solid;
+            margin: auto;
+            animation-name: div2;
+            animation-duration: 1s;
+            border-radius: 50%;
+            animation-iteration-count:1 ;
+
+        }
+        @keyframes div2 {
+          
+            20%{background-color: rgb(85, 0, 255);
+              }
+
+            40%{background-color: aqua;
+               }
+           
+            60%{background-color: aqua;
+               }
+          
+            80%{background-color: brown;}
+            
+            100%{background-color: darkgreen;}
+        }
+    </style>
+</head>
+<body>
+    <img class="div2" src="../download.png" alt="">
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div class="div1">
+        
+    </div>
+
+    <div class="div2">
+        
+    </div>
+</body>
+</html>

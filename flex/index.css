@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 600px;
+    width: 50%;
+    border: solid;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap:wrap-reverse ; */
+    flex-wrap:wrap ;
+    /* it works on main axis/row only   values flexstart,s*/
+    justify-content: ;
+      /* it works on cross axis/column only   values stretch(Default value) flexstart,baseline,flex-end,center*/
+    align-items:stretch;
+}
+p{
+    /* height: 100px; */
+    width: 100px;
+    border: solid;
+}

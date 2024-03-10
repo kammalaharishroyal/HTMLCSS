@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div,section,p{
+            border: solid;
+            height: 100px;
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        div+section{
+            background-color: aquamarine;
+        }
+        .divp{
+            height: 80px;
+            width: 70px;
+        }
+        div>p{
+            background-color: blue;
+
+        }
+        .h1{
+            height: 20px;
+            width: 20px;
+            border: solid;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <p class="divp">
+            <h1 class="h1"></h1>
+        </p>
+
+    </div>
+    <section  class="s1"></section>
+    <section class="s2"></section>
+    <p></p>
+    <section></section>
+</body>
+</html>

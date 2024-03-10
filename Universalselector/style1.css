@@ -1,0 +1,15 @@
+p{
+    text-align: center;
+}
+strong{
+    text-align: center;
+    display: block;
+}
+span{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    display: inline-block;
+    margin: 10px;
+    
+}

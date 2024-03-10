@@ -1,0 +1,39 @@
+.main{
+    width: 434px;
+    margin: auto;
+}
+.form-container{
+    padding-right: 32px;
+    padding-left: 40px;
+}
+input{
+    padding:20px 10px;
+    width: 100%;
+}
+button{
+    margin-top: 10px;
+    padding: 10px 28px;
+    background-color: #fc8019;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 200;
+    width: 100%;
+}
+span{
+    display: block;
+    margin-top: 20px;
+    color: #5d8ed5;
+}
+span:hover{
+    cursor: pointer;
+}
+section{
+    display: inline-block;
+}
+strong{
+    color:#fc8019 ;
+}
+strong:hover{
+    cursor: pointer;
+}

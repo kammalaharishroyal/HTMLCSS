@@ -1,0 +1,28 @@
+div{
+    height: 100%;
+    width: 70%;
+    border:dashed;
+    margin: 100px;
+ 
+}
+section{
+    height: 70%;
+    width: 70%;
+    border: solid;
+    margin:  70px;
+    padding: 40px;
+}
+p{
+    height: 50%;
+    width: 50%;
+    border: dashed;
+   
+    padding: 10%;
+}
+.str{
+    height: 100%;
+    width:200px;
+    padding-left: 100%;
+    border: solid;
+    
+}

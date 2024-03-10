@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>form-personaldetails</title>
+  </head>
+  <body>
+    <div align  ="center">
+      <!-- autocomplete is used to off the saved data showing in input field -->
+    <form action="" autocomplete="off"  >  
+     
+      <table>
+        <caption>
+            <strong><ins><h2>Personal details</h2></ins></strong>
+          </caption>
+        <tr>
+          <td><label for="name"><strong>Username</strong></label></td>
+          <td><input name="name" type="text" id="name" required   title="use"  /></td>
+          <td><input type="tel" name="" id=""></td>
+          <td><input type="range" value="0"></td>
+          
+        </tr>
+        <tr>
+          <td><label for="pw"><strong>Password</strong></label></td>
+          <td><input name="password" type="password" id="pw" required disabled/></td>
+        </tr>
+        <tr>
+          <td><label for="email"><strong>Email-id</strong></label></td>
+          <td><input name="email" type="email" id="email"required  readonly value="abc@gmail.com"/></td>
+        </tr>
+        <tr>
+          <td><label for="gender"><strong>Gender</strong></label></td>
+          <td>
+            <input type="radio" name="gender" value="male" />
+            <label for="">Male</label>
+           
+            <input type="radio" name="gender" value="female" />
+            <label for="">Female</label>
+           
+            <input type="radio" name="gender" value="others" />
+            <label for="">other</label>
+           
+          </td>
+        </tr>
+        <tr>
+          <td><label for="dob"><strong>Date Of Birth</strong></label></td>
+          <td><input type="date"required /></td>
+        </tr>
+        <tr>
+          <td><label for=""><strong>Degree</strong></label></td>
+          <td>
+            <select name="degree" id="">
+              <option value="">--select--</option>
+              <option value="Bsc">Bsc</option>
+              <option value="bcom">B.com</option>
+              <option value="btech">B.Tech</option>
+              <option value="be">BE</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for=""><strong>branch</strong></label></td>
+          <td>
+            <input name="branch" list="branch" placeholder="search" />
+            <datalist id="branch">
+              <option value="CSE">CSE</option>
+              <option value="ECE">ECE</option>
+              <option value="CIVIL">CIVIL</option>
+              <option value="MECH">MECH</option>
+              <option value="EEE">EEE</option>
+            </datalist>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="hobbies"><strong>Hobbies</strong></label></td>
+          <td>
+            <label for="">cricket</label>
+            <input type="checkbox" name="hobbie" value="cricket" />
+            <label for="">foot ball</label>
+            <input type="checkbox" name="hobbie" value="foot ball" />
+            <label for="">reading Books</label>
+            <input type="checkbox" name="hobbie" value="reading Books" />
+            <label for=""> volley ball</label>
+            <input type="checkbox" name="hobbie" value="volley ball" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="adress"><strong>Adress</strong></label></td>
+          <td>
+            <textarea name="adress" id="adress" cols="30" rows="10"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="resume"><strong>Resume</strong></label></td>
+          <td><input type="file" required/></td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <input type="submit" value="Register" />
+      <input type="reset" value="clear" />
+    </form>
+</div>
+<hr>
+<div>
+  <form action="">
+    <table>
+      <tr>
+        <td><input type="text" placeholder="username"></td>
+      </tr>
+      <tr>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td><input type="tel" placeholder="mobile"></td>
+      </tr>
+      <tr>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td><input type="text"></td>
+      </tr>
+      
+    </table>
+    <input type="button" value="submit">
+      <input type="reset" name="" id="">
+  </form>
+
+
+
+</div>
+  </body>
+</html>
