@@ -1,0 +1,22 @@
+div{
+    height: 400px;
+    width: 300px;
+    border: 1px solid;
+    display: inline-block;
+}
+section{
+    height: 400px;
+    width: 400px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: inline-block;
+}
+@media (300px,600px){
+    section{
+        height: 100px;
+        width: 100px;
+        border: 1px solid;
+        border-radius: 50%;
+        display: inline-block;
+    }
+}

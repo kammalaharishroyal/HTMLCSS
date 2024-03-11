@@ -42,6 +42,9 @@
     
     margin-top: 100px;
 }
+.div2-1 h2{
+    color: #361968;
+}
 .div2-1 section{
     width: 356px;
     height: 269px;
@@ -91,6 +94,42 @@ display: inline-block;
     display: inline-block;
     margin-left: 40%;
     
+}
+.scrolling{
+    margin-top: 82px;
+    background-image: url(https://www.phonepe.com/webstatic/6390/static/bab93065eae063d167f5ea2699093877/70ff9/hp-banner-pg.jpg);
+    background-size: cover;
+    height: 62vh;
+    color: #361374;
+}
+.scrolling h1{
+    padding-left: 10%;
+    padding-top: 5%;
+    font-size: 50px;
+}
+.scrolling h2{
+  width: 50%;  
+  padding-left: 14%;
+  margin-top: 1%;
+  font-size: 40px;
+
+
+}
+.scrolling h3{
+    padding-left: 14%;
+    margin-top: 30px;
+    color:#361374;
+}
+.scrolling button{
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: #6739b7;
+    color: white;
+    font-weight: bolder;
+    margin-left: 14%;
+    cursor: pointer;
+    margin-top: 10px;
+
 }
 .div3{
     height: 100vh;
