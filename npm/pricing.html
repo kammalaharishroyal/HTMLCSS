@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        section{
+            box-shadow: 1px 1px 10px 1px lightgray;
+            height: 780px;
+            border: none;
+        }
+        .div1{
+            background-color: #ab0b54;
+            height: 130vh;
+            color: white;
+        
+        }
+        .div1>h1{
+            text-align: center;
+            padding-top: 30px;
+            font-size: 70px;
+            font-family: sans-serif;
+            position: relative;
+            top: -20px;
+        }
+        .div1-contents{
+            display: flex;
+            justify-content: space-around;
+            padding: 0px 100px;
+        }
+        .section1{
+            background-color: #757575;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            width: 300px;
+        }
+        .section1>h2{
+            padding: 16px;
+            width: 70%;
+            text-align: center;
+            margin-left: 40px;
+         
+
+        }
+        .section1>img{
+            height: 58px;
+            width: 58px;
+            margin: 80px  0px;
+            margin-left: 30%;
+            
+        }
+        .section1>h3{
+            margin-left: 30%;
+        }
+        .twospans{
+            margin-left: 30%;
+        }
+        .doller{
+            font-size: 40px;
+            margin: 30px 0px;
+
+        }
+        .price{
+            font-size: 70px;
+            font-family: sans-serif;
+            position: relative;
+            top: 30px;
+        }
+        .packge{
+            display: block;
+            margin: 60px  0px;
+            width: 200px;
+            margin-bottom: 100px;
+            text-align: center;
+            
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        .section1 a{
+            text-decoration: none;
+            color: white;
+            height: 60px;
+            width: 80%;
+            border: 1px solid;
+            display: inline-block;
+            text-align: center;
+            padding-top: 15px;
+            margin-bottom: 10px;
+            border-radius: 30px;
+            margin-left: 10%;
+            font-weight: bolder;
+            font-size: 25px;
+            position: relative;
+            top: 60px;
+        }
+        .section2{
+            width: 300px;
+            background-color: #fff;
+            color: black;
+            border: 1px solid;
+        }
+        .section2 img{
+            width: 100%;
+        }
+        .section2>h2{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: large;
+            padding: 20px 60px;
+
+        }
+        .section2>h3{
+            margin-left: 30%;
+        }
+        .s2-packge{
+            display: block;
+            margin:   0px;
+            width: 200px;
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 20px;
+            margin-left: 20px;
+
+        }
+        .s2-packge1{
+            margin-top: 50px;
+        }
+        .section2 a{
+            text-decoration: none;
+            color:black ;
+            height: 60px;
+            width: 80%;
+            border: 1px solid;
+            display: inline-block;
+            text-align: center;
+            padding-top: 15px;
+            
+            border-radius: 30px;
+            margin-left: 10%;
+          
+            font-size: 20px;
+            position: relative;
+            top: 20px;
+            
+        }
+        .section3{
+            width: 300px;
+            background-color: #fff;
+            color: black;
+            border: 1px solid;
+
+        }
+        .section3 img{
+            width: 100%;
+        }
+        .section3>h2{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: large;
+            padding: 20px 60px;
+
+        }
+        .section3>h3{
+            margin-left: 30%;
+        }
+        .section3 a{
+            text-decoration: none;
+            color:black ;
+            height: 60px;
+            width: 80%;
+            border: 1px solid;
+            display: inline-block;
+            text-align: center;
+            padding-top: 15px;
+            
+            border-radius: 30px;
+            margin-left: 10%;
+          
+            font-size: 20px;
+            
+        }
+        .div2{
+            height: 120vh;
+            margin-bottom: 300px;
+          
+        }
+        .div2-1{
+            width: 60%;
+            height: 110vh;
+            border: 1px solid;
+            position: relative;
+            left: 20%;
+            top: 150px;
+            border-top: 2px solid;
+            border-bottom: 2px solid;
+            border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        .div2-1x1>h2{
+            text-align: center;
+            background-color: #777;
+            padding: 10px 0px;
+            color: white;
+        }
+        
+        .div2-1x1>h3,.div2-1x2>h3,.div2-1x3>h3{
+            text-align: center;
+            margin: 20px 30%;
+            color: #777;
+            padding: 10px 0px;
+            
+            
+        }
+        .div2-1-price{
+            display:flex ;
+            justify-content: space-between;
+            margin:20px 30%;
+            margin-bottom: 30px;
+        }
+        .div2-1-price img{
+                height: 22px;
+                width: 22px;
+                position: relative;
+                left: 8px;
+                top: 15px;
+        }
+        .div2-1x2{
+            background-color:#eee;
+            padding: 30px 0px;
+        }
+        .endline{
+            position: absolute;
+            right: 0px;
+            bottom: -30px;
+        }
+        iframe{
+            width: 100%;
+        }
+        .footer{
+            height: 310px;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="./header.html" frameborder="0"></iframe>
+    <div class="div1">
+        <h1>Pricing</h1>
+        <div class="div1-contents">
+            <section class="section1">
+                <h2>For Public Package Authors</h2>
+                <img src="https://static.npmjs.com/attachments/ck3uwe5b372y08874c6bk5mj9-free-2x.png" alt="">
+                <h3>Free</h3>
+                <div class="twospans">
+                    <span class="doller">$</span>
+                <span class="price">0</span>
+                </div>
+                <span class="packge">Unlimited <br> public packages</span>
+                <a href="">Create</a>
+            </section>
+            <section class="section2">
+                <h2>For Individual Creators</h2>
+                <img src="./img1" alt="" class="img1">
+                <h3>Pro</h3>
+                <div class="twospans">
+                    <span class="doller">$</span>
+                    <span class="price">7</span>
+                    <br> <br>
+                    per user
+                    
+                </div>
+                <span class="s2-packge s2-packge1">Unlimited <br> public packages</span>
+                <span class="s2-packge">Unlimited <br> private packages</span>
+                <span class="s2-packge">Package-based<br> permissions</span>
+                <a href="">Get Started With Pro</a>
+            </section>
+            <section class="section3">
+                <h2>For Individual Creators</h2>
+                <img src="./img2.png" alt="" class="img1">
+                <h3>Pro</h3>
+                <div class="twospans">
+                    <span class="doller">$</span>
+                    <span class="price">7</span> <br> <br>
+                    per user <br>per month
+                    
+                </div>
+                
+                <span class="s2-packge s2-packge1">Unlimited <br> public packages</span>
+                <span class="s2-packge">Unlimited <br> private packages</span>
+                <span class="s2-packge">Team-based<br> permissions</span>
+                <a href="">Get Started With Teams</a>
+            </section>
+            
+            
+        </div>
+
+    </div>
+    <div class="div2">
+        <div class="div2-1">
+
+            <div class="div2-1x1"><h2>Feature Comparison</h2>
+                <h3>Unlimited public packages &
+                 automatic security warnings</h3>
+                 <div class="div2-1-price">
+                    <div class="item1">
+                     <h3>Free</h3>
+                     <img src="./tickmark.png" alt="">
+                    </div>
+                    <div class="item2">
+                     <h3>Pro</h3>
+                     <img src="./tickmark.png" alt="">
+                    </div>
+                    <div class="item3">
+                     <h3>Teams</h3>
+                     <img src="./tickmark.png" alt="">
+                    </div>
+                 </div>
+      
+     </div>
+            <div class="div2-1x2">
+                
+           <h3>Unlimited private packages</h3>
+            <div class="div2-1-price">
+               <div class="item1">
+                <h3>Free</h3>
+                <!-- <img src="./tickmark.png" alt=""> -->
+               </div>
+               <div class="item2">
+                <h3>Pro</h3>
+                <img src="./tickmark.png" alt="">
+               </div>
+               <div class="item3">
+                <h3>Teams</h3>
+                <img src="./tickmark.png" alt="">
+               </div>
+            </div>
+ 
+
+            </div>
+            <div class="div2-1x3">
+                <h3>Unlimited team-based management</h3>
+                 <div class="div2-1-price">
+                    <div class="item1">
+                     <h3>Free</h3>
+                     <!-- <img src="./tickmark.png" alt=""> -->
+                    </div>
+                    <div class="item2">
+                     <h3>Pro</h3>
+                     <!-- <img src="./tickmark.png" alt=""> -->
+                    </div>
+                    <div class="item3">
+                     <h3>Teams</h3>
+                     <img src="./tickmark.png" alt="">
+                    </div>
+                 </div>
+                 <span class="endline">All versions include basic support</span>
+     </div>
+    
+            
+       </div>
+       
+    </div>
+    <iframe class="footer" src="./footer.html" frameborder="0"></iframe>
+</body>
+</html>

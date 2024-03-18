@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+            
+        }
+        .top{
+            border-top: 12px solid;
+            
+            border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+            
+        }
+        .container{
+            
+             
+            cursor: pointer;
+            font-weight: 400;
+            letter-spacing: 0.015625em;
+            border-bottom: 1px solid lightgray;
+            font-weight: 400;
+            padding: 8px 0px;
+        
+        }
+        .container button{
+            background-color: transparent;
+            border: none;
+            
+        }
+        .container span{
+            padding-right: 16px;
+            display: inline-block;
+            transform: scale(1.4);
+        }
+        .container ul{
+            display: inline-block;
+            list-style: none;
+            
+            position: absolute;
+            right:32px ;
+            
+        }
+        .container ul li{
+            display: inline-block;
+            padding: 0px 10px;
+            
+        }
+        .con-sect-1{
+            position: relative;
+            display: inline-block;
+        
+            
+        }
+        .con-1{
+         padding: 8px 32px;
+        }
+        .con-2{
+            padding: 10px 0px;
+            
+        }
+        .con2-2{
+            display: flex;
+            padding: 0px 32px;
+            
+            
+        }
+        .con2-sec1{
+            padding: 6px 0px;
+            display: flex;
+            
+        }
+        .search-btn{
+            background-color: black;
+            color: white;
+            padding: 0px 20px;
+        }
+        .con2-sec1-div1{
+            background-color:#f2f2f2 ;
+            padding: 5px;
+        }
+        input[placeholder="Search Packages"]{
+            padding: 1px 2px 1px 10px;
+            background-color: transparent;
+            border: none;
+            width: 800px;
+        }
+        input::placeholder{
+            position: relative;
+            top: 5px;
+        }
+        input:focus{
+            outline: none;
+            position: relative;
+            
+            
+        }
+        
+        .npm{
+            height: 22px;
+            width: 77px;
+            position: relative;
+            top: 10px;
+            margin-right: 15px;
+        }
+        ._705cdf4f{
+            position: relative;
+            top: 7px;
+            left: 10px;
+        }
+        .signup-btn{
+            padding: 13px 28px;
+            background-color: transparent;
+            border: 1px lightgray solid;
+            position: relative;
+            top: 3px;
+        }
+        .signin-btn{
+            padding: 4px;
+            border: none;
+            background-color: transparent;
+        }
+        .con2-sec-2{
+            padding-left: 16px;
+            padding-top: 2px;
+            padding-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="top"></div>
+    <header>
+        <div class="container">
+           
+            <div class="con-1">
+                <section class="con-sect-1">
+                    <span class="_0edb515f pr3 dn dib-ns link lh-title dim b--white-30">❤</span>
+                    <button>No,Pay Me</button>
+                </section>
+               <ul>
+                <li>Pro</li>
+                <li>Teams</li>
+                <li>Pricing</li>
+                <li>Documentation</li>
+               </ul>
+            </div>
+        </div>
+        <div class="con-2">
+           <div class="con2-2">
+            <svg class="npm" viewBox="0 0 780 250" aria-hidden="true"><path fill="#231F20" d="M240,250h100v-50h100V0H240V250z M340,50h50v100h-50V50z M480,0v200h100V50h50v150h50V50h50v150h50V0H480z M0,200h100V50h50v150h50V0H0V200z"></path></svg>
+            <section class="con2-sec1">
+                <div class="con2-sec1-div1">
+                    <span class="_705cdf4f db fl pl3 pr1"><svg width="15px" height="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" aria-hidden="true"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g stroke="#777777" stroke-width="1.3"><g><path d="M13.4044,7.0274 C13.4044,10.5494 10.5494,13.4044 7.0274,13.4044 C3.5054,13.4044 0.6504,10.5494 0.6504,7.0274 C0.6504,3.5054 3.5054,0.6504 7.0274,0.6504 C10.5494,0.6504 13.4044,3.5054 13.4044,7.0274 Z"></path><path d="M11.4913,11.4913 L17.8683,17.8683"></path></g></g></g></svg></span>
+                <input type="text" placeholder="Search Packages">
+                </div>
+                <button class="search-btn">Search</button>
+            </section>
+            
+            <section class="con2-sec-2">
+                <button class="signup-btn">Sign Up</button>
+                <button class="signin-btn">Sign In</button></section>
+           </div>
+        </div>
+    </header>
+    
+</body>
+</html>

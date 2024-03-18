@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+ol li:hover{
+    cursor: pointer;
+}
 .main{
     padding: 0px 0px;
 }
@@ -41,6 +44,15 @@
 .div2{
     
     margin-top: 100px;
+    
+}
+.div2-1 section{
+    transition: transform 1s;
+    
+}
+.div2-1>section:hover{
+    transform: scale(1.01);
+
 }
 .div2-1 h2{
     color: #361968;
@@ -129,6 +141,7 @@ display: inline-block;
     margin-left: 14%;
     cursor: pointer;
     margin-top: 10px;
+    border: none;
 
 }
 .div3{
@@ -367,8 +380,9 @@ display: inline-block;
     
 }
 .footer{
-    height: 100vh;
+    height: 65vh;
     position: relative;
+    z-index: -1;
     
 }
 .footer img{
@@ -397,11 +411,7 @@ display: inline-block;
     color: black;
 }
 
-.connect img:first-child{
-    margin-left: 88%;
-    width: 30px;
-    height: 30px;
-}
+
 .footer p{
     text-align: center;
     font-size: larger;
@@ -440,26 +450,23 @@ font-size: larger;
 }
 .connect{
 
-
-margin: 10px;
-position: relative;
-top: -150px;
-right: 60px;
-
-
+margin-left: 80%;
+margin-top: 50px;
+margin-bottom: 50px;
 
 }
-.connect img{
-
-
+.connect>img{
+margin-left: 20px;
+display: inline-block;
 
 
 }
 .connect+strong{
 font-weight: lighter;
-position: absolute;
-left: 40%;
-bottom: 10%;
+display: block;
+margin-left: 40%;
+
+
 
 }
 .footer button{

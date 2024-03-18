@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        iframe{
+            width: 100%;
+        }
+        .div1{
+            height: 100vh;
+            color: white;
+            position: relative;
+            background-image: linear-gradient(270deg, rgba(176, 42, 42, 0.16) 0%, rgba(176, 42, 42, 0.56) 18.45%, rgba(176, 42, 42, 0.8) 49.67%, rgba(176, 42, 42, 0.56) 82.52%, rgba(176, 42, 42, 0.196364) 99.7%, rgba(189, 40, 40, 0) 99.71%, rgba(203, 56, 55, 0) 99.72%, rgba(203, 56, 55, 0.16) 99.73%), url(https://static.npmjs.com/attachments/ck3uwdslwmr4gc9740vqxa800-bg-teams.png);
+
+        }
+        .div1>img{
+            height: 174px;
+            width: 174px;
+            display: block;
+            
+            position: absolute;
+            top:60px ;
+            left: 43%;
+
+        }
+        .div1 h1{
+            position: absolute;
+            top:280px ;
+            left: 33%; 
+            font-size: 80px;
+            font-family: sans-serif;
+        }
+        .div1 p{
+            position: absolute;
+            top:410px ;
+            left: 23%; 
+            font-size: 25px;
+            font-family: sans-serif;
+            width: 60%;
+            text-align: center;
+            line-height: 25px;
+        }
+        .div1 button{
+            position: absolute;
+            top:500px ;
+            left: 43%; 
+            padding: 15px 25px;
+            font-family: sans-serif;
+            width: 250px;
+            background-color: #c12127;
+            color: white;
+            font-weight: bolder;
+            border: none;
+            cursor: pointer;
+            
+
+        }
+        .div2 img{
+            height: 68px;
+            width: 68px;
+        }
+        .div2{
+            position: relative;
+        }
+        .div2 section{
+            height: 200px;
+            width: 500px;
+            border: 1px solid;
+            position: relative;
+            left: 30%;
+            
+        }
+        .div2 section img{
+            position: absolute;
+            left: 48%;
+           
+        }
+        .div2 section h2{
+            position: absolute;
+            top: 40%;
+            left: 30%;
+
+        }
+        .div2 section p{
+            position: absolute;
+            top: 60%;
+            left: 5%;
+            margin: 0px 20px;
+            text-align: center;
+        }
+        .footer{
+            height: 310px;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="./header.html" frameborder="0"></iframe>
+    <div class="div1">
+        <img src="./teamsimg1.png" alt="">
+        <h1>npm Teams</h1>
+        <p>Share code and collaborate with the tools that make JavaScript the world's best software ecosystem</p>
+        <button>Get Started</button>
+
+    </div>
+    <div class="div2">
+        <section>
+            <img src="./teamsimg2.png" alt="">
+        <h2>Unlimited public packages</h2>
+        <p>Bring the best of open source JavaScript development to your own projects.</p>
+        </section>
+        <section>
+            <img src="./teamsimg3.png" alt="">
+        <h2>Unlimited private packages</h2>
+        <p>Seamlessly integrate public and private packages into your development cycle.</p>
+        </section>
+        <section>
+            <img src="./teamsimg4.png" alt="">
+        <h2>Package-based permissions</h2>
+        <p>Add collaborators to work on your public and private packages together.</p>
+        </section>
+
+    </div>
+    <iframe class="footer" src="./footer.html" frameborder="0"></iframe>
+</body>
+</html>

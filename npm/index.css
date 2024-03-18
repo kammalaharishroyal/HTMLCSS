@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+.top{
+    border-top: 12px solid;
+    
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    
+}
+.container{
+    
+     
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 0.015625em;
+    border-bottom: 1px solid lightgray;
+    font-weight: 400;
+    padding: 8px 0px;
+
+}
+.container button{
+    background-color: transparent;
+    border: none;
+    
+}
+.container span{
+    padding-right: 16px;
+    display: inline-block;
+    transform: scale(1.4);
+}
+.container ul{
+    display: inline-block;
+    list-style: none;
+    
+    position: absolute;
+    right:32px ;
+    
+}
+.container ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    
+}
+.con-sect-1{
+    position: relative;
+    display: inline-block;
+
+    
+}
+.con-1{
+ padding: 8px 32px;
+}
+.con-2{
+    padding: 10px 0px;
+    
+}
+.con2-2{
+    display: flex;
+    padding: 0px 32px;
+    
+    
+}
+.con2-sec1{
+    padding: 6px 0px;
+    display: flex;
+    
+}
+.search-btn{
+    background-color: black;
+    color: white;
+    padding: 0px 20px;
+}
+.con2-sec1-div1{
+    background-color:#f2f2f2 ;
+    padding: 5px;
+}
+input[placeholder="Search Packages"]{
+    padding: 1px 2px 1px 10px;
+    background-color: transparent;
+    border: none;
+    width: 800px;
+}
+input::placeholder{
+    position: relative;
+    top: 5px;
+}
+input:focus{
+    outline: none;
+    position: relative;
+    
+    
+}
+
+.npm{
+    height: 22px;
+    width: 77px;
+    position: relative;
+    top: 10px;
+    margin-right: 15px;
+}
+._705cdf4f{
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+.signup-btn{
+    padding: 13px 28px;
+    background-color: transparent;
+    border: 1px lightgray solid;
+    position: relative;
+    top: 3px;
+}
+.signin-btn{
+    padding: 4px;
+    border: none;
+    background-color: transparent;
+}
+.con2-sec-2{
+    padding-left: 16px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+.body{
+   
+    height: 105vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   background-image: linear-gradient(
+    270deg,
+    rgba(176, 42, 42, .16) 0%,
+    rgba(176, 42, 42, .56) 18.45%,
+    rgba(176, 42, 42, .8) 49.67%,
+    rgba(176, 42, 42, .56) 82.52%,
+    rgba(176, 42, 42, .196364) 99.7%,
+    rgba(189, 40, 40, 0) 99.71%,
+    rgba(203, 56, 55, 0) 99.72%,
+    rgba(203, 56, 55, .16) 99.73%
+  ),
+  url(https://static-production.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png);
+}
+.body-div1{
+    width: 500px;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    color: white;
+
+}
+.body-div1>h1{
+    font-size: 50px;
+    margin: 50px 0px;
+    text-align: center;
+}
+.body-div1>p{
+    font-size: small;
+    text-align: center;
+}
+.body-div1>h2{
+    margin: 30px 0px;
+    text-align: center;
+    padding: 0px 50px;
+}
+.signup{
+    background-color: #FFC329;
+    padding: 16px 32px;
+    border-radius: 40px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 230px;
+}
+.learn{
+    padding: 16px 32px;
+    background-color: #CB3837;
+    color: white;
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 230px;
+}
+.sec-2{
+    height: 100vh;
+    border: 1px solid;
+    width: 100%;
+}
+.sec-2>section{
+    width: 50%;
+    height: 500px;
+    
+    position: relative;
+    left: 20%;
+    top: 5%;
+    
+}
+.sec-2>section>img{
+    display: inline-block;
+    
+    width: 109px;
+    height: 96px;
+    margin:30px  320px;
+}
+.sec-2>section>h1{
+    width: 50%;
+    margin: 30px 0px 0px 150px;
+    
+    text-align: center;
+
+
+}
+.sec-2>section>article{
+    margin: 0px 19px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+}
+.footer>ol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    
+    list-style: none;
+    
+    
+
+}
+.footer>ol>li>svg{
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+
+    
+}
+.footer>div{
+    width: 100%;
+    
+    
+    
+display: flex;
+list-style: none;
+justify-content: space-evenly;
+position: relative;
+padding-top: 30px;
+}
+.footer>div>ul>li{
+    list-style: none;
+    margin: 30px;
+}
+.footer>div>ul>li:first-child{
+    font-weight: bolder;
+}
+
+.top{
+    
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    
+}

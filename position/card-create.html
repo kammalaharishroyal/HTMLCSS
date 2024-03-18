@@ -12,6 +12,9 @@
         }
         body{
             background-color: black;
+        }
+        .body{
+            background-color: black;
             color: aliceblue;
             display: flex;
             flex-wrap: wrap;
@@ -68,7 +71,7 @@
             margin-top: 10px;
 
         }
-        .card+h1{
+        .offer{
             background-color: yellow;
             width: 420px;
             margin: auto;
@@ -78,7 +81,12 @@
             top: 0;
             padding: 30px 15px;
             color: black;
-           <!--  z-index: -10; -->
+            z-index: 100;
+            transition: transform 2s;
+            
+        }
+        .offer:hover{
+            transform: translate(300px);
         }
         button:hover{
             cursor: pointer;
@@ -86,7 +94,9 @@
     </style>
 </head>
 <body>
-    <button class="btn-help">Need Help ?</button>
+    <h1 class="offer">flat 50% offer</h1>
+    <div class="body">
+        <button class="btn-help">Need Help ?</button>
     <div class="card">
         
         <img src="https://media.istockphoto.com/id/1473452859/photo/tasty-cheeseburger-glass-of-cola-and-french-fries-on-wooden-tray-close-up.jpg?s=1024x1024&w=is&k=20&c=6qf02Pl4XQoSCD29sX410Z_QyVxaKTSEY8bbhhLT0-A=" alt="">
@@ -96,7 +106,7 @@
             <button  class="btn-order">Order Now</button>
         </div>
     </div> 
-    <h1>flat 50% offer</h1>
+   
     <div class="card">
         <img src="https://media.istockphoto.com/id/1473452859/photo/tasty-cheeseburger-glass-of-cola-and-french-fries-on-wooden-tray-close-up.jpg?s=1024x1024&w=is&k=20&c=6qf02Pl4XQoSCD29sX410Z_QyVxaKTSEY8bbhhLT0-A=" alt="">
         <div class="card-content">
@@ -231,5 +241,6 @@
         </div>
     </div>
    
+    </div>
 </body>
 </html>
